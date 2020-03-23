@@ -111,11 +111,6 @@ document.addEventListener("keydown", function (event) {
     else if (event.keyCode === 53 || event.keyCode === 101) {
         document.getElementById("kleur").innerHTML = 'groen';
         body.style.background = 'green';
-        /* body.classList.toggle('greyBackground', false);
-         body.classList.toggle('redBackground', false);
-         body.classList.toggle('orangeBackground', false);
-         body.classList.toggle('purpleBackground', false);
-         body.classList.toggle('greenBackground', true); */
         menu.classList.toggle('visible', false);
         menu.classList.toggle('hidden', true);
     }
