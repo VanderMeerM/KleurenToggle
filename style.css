@@ -30,6 +30,7 @@
 
 ul li {
     list-style: none;
+    margin: auto;
     text-align: center;
     color: white;
     padding: 20px;
@@ -45,22 +46,58 @@ ul li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+
 .grey {
+    border: solid grey 1px;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    height: 40px;
     background-color: grey;
 }
 
 .red {
+    border: solid grey 1px;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    height: 40px;
     background-color: red;
 }
 
 .orange {
+    border: solid grey 1px;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    height: 40px;
     background-color: orange;
 }
 
 .purple {
+    border: solid grey 1px;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    height: 40px;
     background-color: purple;
 }
 
 .green {
+    border: solid grey 1px;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-left: 60px;
+    color: white;
+    width: 260px;
+    height: 40px;
     background-color: green;
 }

@@ -10,8 +10,26 @@ menuButton.addEventListener("click", function () {
 menuButton.addEventListener("mouseover", function () {
     menu.classList.toggle('visible');
 })
-   
+  
+// function needed to show radiobuttons 
 
+/*
+const changeColor = () => {
+    document.getElementsByName('color').
+    forEach(color => {
+        color.addEventListener("change", function(event) {
+            const color= event.target.value;
+            document.getElementById("color").innerHTML = color;
+            body.style.background = color;
+            menu.classList.toggle('visible');
+            document.querySelector(".text").style.color= "white";}
+        )}
+        )
+    }
+*/
+    
+// function and code (until line 55) needed in case you don't want to use radiobuttons 
+    
 const changeColor = event => {
     const color = event.target.innerHTML.split(' ')[0];
     document.getElementById("color").innerHTML = color;
@@ -20,13 +38,6 @@ const changeColor = event => {
     document.querySelector(".text").style.color= "white";
 }
 
-const pressColor = () => {
-    document.getElementById("color").innerHTML = color;
-    body.style.background = color;
-    menu.classList.toggle('visible');
-    document.querySelector(".text").style.color= "white";
-}
-   
 const grey = document.querySelector(".grey").
 addEventListener("click", changeColor)
 
@@ -42,6 +53,13 @@ addEventListener("click", changeColor)
 const green = document.querySelector(".green").
 addEventListener("click", changeColor)
 
+
+const pressColor = () => {
+    document.getElementById("color").innerHTML = color;
+    body.style.background = color;
+    menu.classList.toggle('visible');
+    document.querySelector(".text").style.color= "white";
+}
 
 document.addEventListener("keydown", function (event) {
       if (event.keyCode === 49 || event.keyCode === 97) {

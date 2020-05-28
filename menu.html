@@ -10,12 +10,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
-    <div class="text">Click or hover on the menu and choose a colour <br>or press the number between brackets <br>to change the background-color in the chosen one. </div><p></p>
+<body>
+    <div class="text">Click or hover on the menu and choose a colour <br>or press the number between brackets <br>to
+        change the background-color in the chosen one. </div>
+    <p></p>
     <img src="hamburger.png" id="hamburger">
-    <div>
-   
-    </div>
+
+    <!-- uncomment (until line 42) in case you want to use radiobuttons 
+    <div id="menu" onclick="changeColor()" class="hidden">
+
+        <div class="grey">
+            <input type="radio" value="grey" name="color">Grey (1)
+        </div>
+
+        <div class="red">
+            <input type="radio" value="red" name="color">Red (2)
+        </div>
+
+        <div class="orange">
+            <input type="radio" value="orange" name="color">Orange (3)
+        </div>
+
+        <div class="purple">
+            <input type="radio" value="purple" name="color">Purple (4)
+        </div>
+
+        <div class="green">
+            <input type="radio" value="green" name="color">Green (5)
+        </div>
+    </div> -->
+
+    <!-- uncommment (until line 52) in case you don't want to use radiobuttons -->
+
     <ul id="menu" class="hidden">
         <li class="grey">Grey (1)</li>
         <li class="red">Red (2)</li>
@@ -23,7 +49,8 @@
         <li class="purple">Purple (4)</li>
         <li class="green">Green (5)</li>
     </ul>
-    
+
+
     <div id="color"></div>
 
 </body>
